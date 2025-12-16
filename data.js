@@ -33,56 +33,25 @@ var APP_DATA = {
           "yaw": 0.07503887125954378,
           "pitch": 0.5079194667575031,
           "rotation": 0,
-          "target": "5-corridoio"
+          "target": "3-corridoio"
         },
         {
           "yaw": -1.5180105807712145,
           "pitch": 0.4229374582087644,
           "rotation": 0,
-          "target": "3-balcone"
+          "target": "2-balcone"
         },
         {
           "yaw": 2.448059107582181,
           "pitch": 0.5503092621784944,
           "rotation": 0.7853981633974483,
-          "target": "2-entrata"
+          "target": "1-entrata"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "1-bagno",
-      "name": "bagno",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1680,
-      "initialViewParameters": {
-        "yaw": 1.357578132340615,
-        "pitch": 0.3571353502075141,
-        "fov": 1.335888521808506
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "2-entrata",
+      "id": "1-entrata",
       "name": "entrata",
       "levels": [
         {
@@ -126,7 +95,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "3-balcone",
+      "id": "2-balcone",
       "name": "balcone",
       "levels": [
         {
@@ -164,45 +133,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "4-camera-da-letto",
-      "name": "camera da letto",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1680,
-      "initialViewParameters": {
-        "yaw": -0.2653856807827015,
-        "pitch": 0.13558865908009565,
-        "fov": 1.335888521808506
-      },
-      "linkHotspots": [
-        {
-          "yaw": -3.1270241504795084,
-          "pitch": 0.5191733420483224,
-          "rotation": 0,
-          "target": "5-corridoio"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "5-corridoio",
+      "id": "3-corridoio",
       "name": "corridoio",
       "levels": [
         {
@@ -234,19 +165,88 @@ var APP_DATA = {
           "yaw": -1.5451667536561189,
           "pitch": 0.5978153978635063,
           "rotation": 0,
-          "target": "1-bagno"
+          "target": "4-bagno"
         },
         {
           "yaw": -0.1481946826741094,
           "pitch": 0.5238296055871086,
           "rotation": 0,
-          "target": "4-camera-da-letto"
+          "target": "5-camera-da-letto"
         },
         {
           "yaw": -3.104948727730264,
           "pitch": 0.5648164568436584,
           "rotation": 0,
           "target": "0-soggiorno"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "4-bagno",
+      "name": "bagno",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1680,
+      "initialViewParameters": {
+        "yaw": 1.357578132340615,
+        "pitch": 0.3571353502075141,
+        "fov": 1.335888521808506
+      },
+      "linkHotspots": [],
+      "infoHotspots": []
+    },
+    {
+      "id": "5-camera-da-letto",
+      "name": "camera da letto",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1680,
+      "initialViewParameters": {
+        "yaw": -0.2653856807827015,
+        "pitch": 0.13558865908009565,
+        "fov": 1.335888521808506
+      },
+      "linkHotspots": [
+        {
+          "yaw": -3.1270241504795084,
+          "pitch": 0.5191733420483224,
+          "rotation": 0,
+          "target": "3-corridoio"
         }
       ],
       "infoHotspots": []
@@ -284,7 +284,7 @@ var APP_DATA = {
           "yaw": 0.14243919976931707,
           "pitch": 0.3712555037560179,
           "rotation": 7.0685834705770345,
-          "target": "2-entrata"
+          "target": "1-entrata"
         }
       ],
       "infoHotspots": []
